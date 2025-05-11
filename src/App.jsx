@@ -4,10 +4,7 @@ import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
-import About from "./Components/About.jsx";
-import Resume from "./Components/Resume.jsx";
 import Contact from "./Components/Contact.jsx";
-// import Portfolio from "./Components/Portfolio.jsx";
 
 class App extends Component {
   constructor(props) {
@@ -44,9 +41,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.appData.main} />
-        {/*<About data={this.state.appData.main} />*/}
-        {/*<Resume data={this.state.appData.resume} />*/}
-        {/* <Portfolio data={this.state.appData.portfolio} /> */}
         <Contact data={this.state.appData.main} />
         <Footer data={this.state.appData.main} />
       </div>
