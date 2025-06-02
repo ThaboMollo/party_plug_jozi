@@ -314,6 +314,11 @@
       margin-left: 0;
    }
 
+   #contact .rows div {
+      background-color: red;
+      display: flex;
+      flex-flow: row;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */

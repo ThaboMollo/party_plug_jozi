@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
+
+import About from "./Components/About";
 import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
 import Contact from "./Components/Contact.jsx";
@@ -41,6 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.appData.main} />
+        <About data={this.state.appData.main} />
         <Contact data={this.state.appData.main} />
         <Footer data={this.state.appData.main} />
       </div>

@@ -18,6 +18,10 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="twelve columns">
+            <div>
+              <a href='' className="hyper">Terms & Conditions</a>
+              <p>© 2025 Jozi Party plug</p>
+            </div>
             <ul className="social-links">{networks}</ul>
           </div>
           <div id="go-top">

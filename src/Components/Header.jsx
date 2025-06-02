@@ -22,15 +22,16 @@ class Header extends Component {
 
           <ul id="nav" className="nav">
             {[
-                "Home",
+                { name: "Home", path: "#home" },
+                { name: "About", path: "#about" },
                 // "Pricing",
                 // "Portfolio",
                 // "Features",
-                "Contact",
+                {name: "Contact", path: "#contact" },
             ].map((item, i) => (
-                <li className={`${item} === 'Home' ? 'current' : ''`}>
-                  <a className="current" href="#home">
-                    {item}
+                <li key={i}  className={`${item} === 'Home' ? 'current' : ''`}>
+                  <a className="current" href={item.path}>
+                    {item.name}
                   </a>
                 </li>
             ))}

@@ -182,11 +182,16 @@ ul#nav li.current a { color: #FF4EC6; }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
+/*#about {*/
+/*   background: #333;*/
+/*   padding-top: 96px;*/
+/*   padding-bottom: 66px;*/
+/*   overflow: hidden;*/
+/*}*/
 #about {
-   background: #333;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+    background: #333;
+    padding: 96px 0;
+    clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 }
 
 #about a, #about a:visited  { color: #FF4EC6; }
@@ -566,6 +571,7 @@ call-to-action .button {
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
+   font-size: 25px;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #ffff33;
@@ -638,6 +644,10 @@ call-to-action .button {
 	color: red;
 	font-size: 13px;
 }
+#contact .event-details {
+    width: 60vw;
+    background-color: red;
+}
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
@@ -693,9 +703,10 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #ffff33; }
 footer a:hover, footer a:focus { color: #ffff33; }
-
+footer a {cursor: pointer}
+footer p { color: #ffff33;}
 /* social links */
 footer .social-links {
    margin: 18px 0 30px 0;
@@ -715,11 +726,12 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Go To Top Button */
 #go-top {
 	position: absolute;
-	top: -24px;
+	top: -20px;
    left: 50%;
    margin-left: -30px;
 }
 #go-top a {
+    padding-top: 17px;
 	text-decoration: none;
 	border: 0 none;
 	display: block;
