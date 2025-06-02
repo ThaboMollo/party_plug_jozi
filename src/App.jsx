@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 
-import About from "./Components/About";
+import About from "./Components/About.jsx";
 import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
 import Contact from "./Components/Contact.jsx";
