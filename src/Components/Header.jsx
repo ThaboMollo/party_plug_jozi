@@ -13,10 +13,10 @@ class Header extends Component {
         <ParticlesBg type="thick" bg={true} />
 
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+          <a className="mobile-btn" href="#" title="Show navigation">
             Show navigation
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
+          <a className="mobile-btn" href="#" title="Hide navigation">
             Hide navigation
           </a>
 
@@ -25,7 +25,7 @@ class Header extends Component {
                 { name: "Home", path: "#home" },
                 { name: "About", path: "#about" },
                 // "Pricing",
-                // "Portfolio",
+                { name: "Portfolio", path: "#portfolio" },
                 // "Features",
                 {name: "Contact", path: "#contact" },
             ].map((item, i) => (
@@ -47,7 +47,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#">
             <i className="icon-down-circle"></i>
           </a>
         </p>

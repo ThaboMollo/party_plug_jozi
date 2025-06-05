@@ -121,36 +121,56 @@
     ]
   },
   "portfolio": {
+    "testimonials": [
+      {
+        "text": "Jozi Party Plug made my 30th birthday absolutely unforgettable! The DJ was amazing, the photo booth was a hit, and everything was set up perfectly. I couldn't have asked for a better celebration!",
+        "user": "Sarah M."
+      },
+      {
+        "text": "We hired Jozi Party Plug for our wedding, and it was the best decision we made. Their attention to detail and professionalism made our special day stress-free and magical.",
+        "user": "David & Lerato Johnson"
+      },
+      {
+        "text": "Our company's year-end function was a huge success thanks to Jozi Party Plug. From sound equipment to decorations, everything was top-notch. Our employees are still talking about it!",
+        "user": "Corporate Solutions Ltd."
+      }
+    ],
     "projects": [
       {
-        "title": "Taahirah Modelling Academy",
-        "category": "A website for a Modelling Academy",
+        "title": "Sarah's 30th Birthday Bash",
+        "category": "Birthday Party",
         "image": "01.jpg",
-        "url": "https://www.taahirahmodelingacademy.co.za/"
+        "url": "#"
       },
       {
-        "title": "Bahale Codes Software",
-        "category": "A website for a Software Development Company",
+        "title": "Johnson & Smith Wedding",
+        "category": "Wedding Celebration",
         "image": "02.png",
-        "url": "https://www.bahalecodes.co.za/"
+        "url": "#"
       },
       {
-        "title": "Jays Online Cafe",
-        "category": "A web application a cafe",
+        "title": "Corporate Year-End Function",
+        "category": "Corporate Event",
         "image": "03.png",
-        "url": "https://www.jaysonline.co.za/"
+        "url": "#"
       },
       {
-        "title": "Courageous Act Foundation",
-        "category": "A website for a social empowerment foundation",
+        "title": "Graduation Celebration",
+        "category": "Graduation Party",
         "image": "04.png",
-        "url": "https://www.courageousact.org.za/"
+        "url": "#"
       },
       {
-        "title": "Mrs. Paulinah Teffu's portfolio Website",
-        "category": "A portfolio website for a high performing business woman.",
+        "title": "Baby Shower Extravaganza",
+        "category": "Baby Shower",
         "image": "05.png",
-        "url": "https://paulinahteffu.herokuapp.com/"
+        "url": "#"
+      },
+      {
+        "title": "Engagement Party",
+        "category": "Engagement Celebration",
+        "image": "06.jpg",
+        "url": "#"
       }
     ]
   }
