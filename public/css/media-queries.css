@@ -117,12 +117,9 @@
       border: none;
       float: right;
 
-      font: 0/0 a;
-      text-shadow: none;
       color: transparent;
 
-      position: relative;
-      top: 0px;
+      top: 0;
       right: 30px;
    }
 
@@ -174,10 +171,9 @@
       border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 
    }
-  
+
    ul#nav li a {  
-      display: block;    
-      margin: 0;
+      display: block;
       padding: 0;      
       margin: 12px 0; 
       line-height: 16px; /* reset line-height from 48px */
@@ -234,7 +230,7 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
-      
+
    .bars { width: 100%; }
 
 
@@ -245,7 +241,7 @@
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
    }
    #call-to-action h1 span { display: block; }
    #call-to-action .header-col h1:before { content: none; }
@@ -258,14 +254,38 @@
    .popup-modal {	max-width: 85%; }
 
 
+   /* Services Section
+   ----------------------------------------------------------------------- */
+   #services h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+   }
+
+   .service-item {
+      width: 45%;
+      margin-bottom: 30px;
+   }
+
    /* Testimonials Section
    ----------------------------------------------------------------------- */
+   #portfolio .testimonial-section h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+   }
+
+   #portfolio .testimonial-item {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
    #testimonials .text-container { text-align: center; }
    #testimonials h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
    }
    #testimonials h1 span { display: block; }
    #testimonials .header-col h1:before { content: none; }
@@ -290,7 +310,7 @@
       font: 16px/24px 'opensans-bold', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
    }  
    #contact h1 span { display: block; }
    #contact .header-col { padding-top: 0; }
@@ -322,7 +342,7 @@
 
    /* footer
    ------------------------------------------------------------------------ */
-  
+
    /* copyright */
    footer .copyright li:before { content: none; }
    footer .copyright li { margin-right: 12px; }
@@ -352,6 +372,20 @@
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
+   /* Services Section
+   -------------------------------------------------------------------- */
+   .service-item {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   /* Portfolio Section
+   -------------------------------------------------------------------- */
+   #portfolio .btn-cta {
+      padding: 12px 20px;
+      font-size: 14px;
+   }
+
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
@@ -363,7 +397,7 @@
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
-  
+
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
@@ -376,12 +410,3 @@
    footer .social-links li { margin-left: 14px; }   
 
 }
-
-
-
-
-
-
-
-
-

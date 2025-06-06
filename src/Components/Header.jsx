@@ -24,6 +24,7 @@ class Header extends Component {
             {[
                 { name: "Home", path: "#home" },
                 { name: "About", path: "#about" },
+                { name: "Services", path: "#services" },
                 // "Pricing",
                 { name: "Portfolio", path: "#portfolio" },
                 // "Features",

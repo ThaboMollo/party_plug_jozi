@@ -14,7 +14,15 @@ class About extends Component {
             <h2>About Us</h2>
             <p>{bio}</p>
             <p>{bio2}</p>
-            
+            <div className="row">
+              <div className="columns download">
+                <p>
+                  <a href="#" className="button">
+                    <i className="fa fa-paper-plane"></i>Get In Touch
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

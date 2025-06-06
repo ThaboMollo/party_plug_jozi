@@ -330,7 +330,7 @@ ul#nav li.current a { color: #FF4EC6; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #333;
+   background: #000;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -382,7 +382,7 @@ ul#nav li.current a { color: #FF4EC6; }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #ffff33;
+   color: #FF4EC6;
    height: 30px;
    width: 30px;
    font-size: 18px;
@@ -407,10 +407,13 @@ ul#nav li.current a { color: #FF4EC6; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta {
+    background: #666;
+    padding: 14px 
+}
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
-   color: #ffff33;
+   color: #FF4EC6;
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
@@ -689,20 +692,112 @@ call-to-action .button {
 
 
 /* ------------------------------------------------------------------ */
-/* g. Testimonials Section
+/* g. Services Section
 /* ------------------------------------------------------------------ */
+
+#services {
+   background: #000;
+   padding-top: 90px;
+   padding-bottom: 60px;
+   color: #FFFFFF;
+}
+
+#services h1 {
+   font: 28px/1.1em 'opensans-bold', sans-serif;
+   color: #FF4EC6;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+#services .lead {
+   text-align: center;
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   color: #FFFFFF;
+   width: 80%;
+   margin: 0 auto 50px auto;
+}
+
+#services-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.service-item {
+   width: 30%;
+   margin-bottom: 40px;
+   text-align: center;
+   padding: 20px;
+   border-radius: 5px;
+   transition: all 0.3s ease;
+}
+
+.service-item:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-icon {
+   font-size: 48px;
+   color: #FF4EC6;
+   margin-bottom: 15px;
+}
+
+.service-item h5 {
+   font: 18px/1.2em 'opensans-bold', sans-serif;
+   color: #FFFFFF;
+   margin-bottom: 15px;
+}
+
+.service-item p {
+   font: 15px/1.7em 'opensans-regular', sans-serif;
+   color: #DDDDDD;
+}
+
+/* ------------------------------------------------------------------ */
+/* h. Testimonials Section
+/* ------------------------------------------------------------------ */
+
+#portfolio .testimonial-section {
+   background-color: #1F1F1F;
+   padding: 60px 0;
+   margin-top: 60px;
+}
+
+#portfolio .testimonial-section h1 {
+   text-align: center;
+   color: #FF4EC6;
+   margin-bottom: 40px;
+}
 
 #portfolio .testimonials {
    margin-top: 30px;
    padding: 0 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 
 #portfolio .testimonial-item {
-   background-color: #1F1F1F;
-   border-radius: 5px;
-   padding: 20px;
+   background-color: #2A2A2A;
+   border-radius: 10px;
+   padding: 30px;
    margin-bottom: 30px;
-   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   width: 30%;
+   transition: all 0.3s ease;
+   position: relative;
+}
+
+#portfolio .testimonial-item:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .testimonial-icon {
+   font-size: 24px;
+   color: #FF4EC6;
+   margin-bottom: 15px;
 }
 
 #portfolio .testimonial-text {
@@ -715,6 +810,32 @@ call-to-action .button {
    text-align: right;
    font: 14px/1.9em 'opensans-bold', sans-serif;
    color: #FF4EC6;
+}
+
+#portfolio .cta-container {
+   text-align: center;
+   margin-top: 40px;
+}
+
+#portfolio .btn-cta {
+   background: #FF4EC6;
+   color: #FFFFFF;
+   padding: 15px 30px;
+   border-radius: 50px;
+   font-size: 16px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+   display: inline-block;
+}
+
+#portfolio .btn-cta:hover {
+   background: #FFFFFF;
+   color: #FF4EC6;
+   transform: scale(1.05);
+}
+
+#portfolio .btn-cta i {
+   margin-right: 10px;
 }
 
 /* ------------------------------------------------------------------ */

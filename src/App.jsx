@@ -8,6 +8,7 @@ import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
 import Contact from "./Components/Contact.jsx";
 import Portfolio from "./Components/Portfolio.jsx";
+import Services from "./Components/Services.jsx";
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.appData.main} />
         <About data={this.state.appData.main} />
+        <Services data={this.state.appData.main} />
         <Portfolio data={this.state.appData.portfolio} />
         <Contact data={this.state.appData.main} />
         <Footer data={this.state.appData.main} />

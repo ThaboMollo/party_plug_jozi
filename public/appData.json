@@ -1,10 +1,42 @@
 {
   "main": {
     "name": "Jozi Party Plug",
-    "description": "",
+    "description": "Your Ultimate Event Planning Partner",
     "image": "ThaboMponya.jpg",
     "bio": "Say hello to your one stop party plug in Johannesburg. We are here to help you plan your next party, whether it is a birthday, wedding, or any other event. We have a wide range of services to make your party unforgettable.",
     "bio2": "We have 360 photo boots, DJ sound systems, photographers, videographers, and more. We are here to make your party planning experience as easy and stress-free as possible.",
+    "services": [
+      {
+        "title": "360° Photo Booth",
+        "description": "Create stunning 360° videos that capture every angle of your special moments. Perfect for weddings, birthdays, and corporate events.",
+        "icon": "fa fa-camera"
+      },
+      {
+        "title": "DJ Services",
+        "description": "Professional DJs with top-quality sound equipment to keep your party energized with the perfect music selection for your event.",
+        "icon": "fa fa-music"
+      },
+      {
+        "title": "Photography",
+        "description": "Capture your special moments with our professional photographers who specialize in event photography.",
+        "icon": "fa fa-picture-o"
+      },
+      {
+        "title": "Videography",
+        "description": "Professional video services to document your entire event with cinematic quality and creative editing.",
+        "icon": "fa fa-video-camera"
+      },
+      {
+        "title": "Event Planning",
+        "description": "Full-service event planning from concept to execution, ensuring every detail is perfect for your special day.",
+        "icon": "fa fa-calendar"
+      },
+      {
+        "title": "Equipment Rental",
+        "description": "Rent high-quality sound systems, lighting, stages, and other equipment for your event.",
+        "icon": "fa fa-volume-up"
+      }
+    ],
     "contactHeader": "Book a party with us",
     "contactMessage": "Let us know how you would like to party and we will get back to you in no time.",
     "email": "mollo.t.mponya@gmail.com",
@@ -137,33 +169,33 @@
     ],
     "projects": [
       {
-        "title": "Sarah's 30th Birthday Bash",
-        "category": "Birthday Party",
+        "title": "DSF 2024 Year-End Function",
+        "category": "Corporate Event",
         "image": "01.jpg",
         "url": "#"
       },
       {
-        "title": "Johnson & Smith Wedding",
-        "category": "Wedding Celebration",
-        "image": "02.png",
+        "title": "Paulinah's sweet 40",
+        "category": "Birthday Party",
+        "image": "02.JPEG",
         "url": "#"
       },
       {
         "title": "Corporate Year-End Function",
         "category": "Corporate Event",
-        "image": "03.png",
+        "image": "03.jpg",
         "url": "#"
       },
       {
         "title": "Graduation Celebration",
         "category": "Graduation Party",
-        "image": "04.png",
+        "image": "04.jpg",
         "url": "#"
       },
       {
         "title": "Baby Shower Extravaganza",
         "category": "Baby Shower",
-        "image": "05.png",
+        "image": "05.jpg",
         "url": "#"
       },
       {

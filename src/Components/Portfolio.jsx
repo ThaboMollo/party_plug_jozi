@@ -12,18 +12,13 @@ class Portfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Our Happy Clients & Events</h1>
-            <p className="lead">
-              At Jozi Party Plug, we take pride in creating unforgettable experiences for our clients. 
-              Browse through our portfolio of successful events and see how we've helped our clients 
-              celebrate their special moments in style.
-            </p>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {projects.map((project, index) => (
                 <div key={index} className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href={project.url} title={project.title}>
-                      <img alt={project.title} src={`images/portfolio/${project.image}`} />
+                      <img alt={project.title} src={`images/${project.image}`} />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{project.title}</h5>
@@ -39,12 +34,15 @@ class Portfolio extends Component {
         </div>
 
         {testimonials.length > 0 && (
-          <div className="row">
+          <div className="row testimonial-section">
             <div className="twelve columns">
               <h1>What Our Clients Say</h1>
               <div className="testimonials">
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="testimonial-item">
+                    <div className="testimonial-icon">
+                      <i className="fa fa-quote-left"></i>
+                    </div>
                     <div className="testimonial-text">
                       <p>"{testimonial.text}"</p>
                     </div>
@@ -53,6 +51,11 @@ class Portfolio extends Component {
                     </div>
                   </div>
                 ))}
+              </div>
+              <div className="cta-container">
+                <a href="#" className="button btn-cta">
+                  <i className="fa fa-calendar"></i>Book Your Event Now
+                </a>
               </div>
             </div>
           </div>
